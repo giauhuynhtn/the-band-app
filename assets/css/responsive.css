@@ -53,6 +53,10 @@
         width: 100% !important;
     }
 
+    .member-list img {
+        height: auto;
+    }
+
     .s-mt-8 {
         margin-top: 8px !important;
     }
