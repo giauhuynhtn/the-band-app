@@ -13,4 +13,4 @@ To learn more about HTML, CSS and JavaScript, you can check out W3Schools
 ✔️ License & Copyright
 © 2022 Giau Huynh giauhuynhtn Licensed under the MIT LICENSE.
 
-🤟 Feel free to use my repository and star it if you find something interesting 🤟
+Feel free to use my repository and star it if you find something interesting

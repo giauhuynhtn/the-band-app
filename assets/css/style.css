@@ -34,6 +34,10 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 .btn {
     color: #fff;
     background-color: #000;
@@ -78,6 +82,10 @@ html {
     width: 33.3333%;
 }
 
+.col-four {
+    width: 25%;
+}
+
 /* Main */
 
 #main {
@@ -85,7 +93,6 @@ html {
 }
 
 #header {
-    /* width: 100%; */
     position: fixed;
     top: 0;
     left: 0;
@@ -93,7 +100,7 @@ html {
     height: 46px;
     background-color: #000;
     z-index: 1;
-    }
+}
 
 #nav {
     display: inline-block;
@@ -155,17 +162,35 @@ html {
     line-height: 38px;
 }
 
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+}
+
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
-    padding: 0 21px;
+    padding: 0 21px; 
     
 }
 
+#header .menu-icon,
 #header .search-icon {
     color: #fff;
     font-size: 20px;
     line-height: 46px;
 }
+
 
 #header .search-btn:hover {
     background-color: #f44336;
@@ -176,7 +201,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('../img/slider/chicago.jpeg') top center / cover no-repeat;
+    background: url('../img/slider/blackpink.webp') top center / cover no-repeat;
 }
 #slider .text-content {
     position: absolute;
@@ -200,14 +225,17 @@ html {
 }
 
 #content {
-
+    
 }
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading {
@@ -224,7 +252,6 @@ html {
     margin-top: 25px;
     font-style: italic;
     opacity: 0.6;
-
 }
 
 #content .about-text {
@@ -235,9 +262,12 @@ html {
 }
 
 #content .member-list {
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
+.member-list img {
+    height: 208px;
+}
 
 #content .member-name {
     font-size: 15px;
@@ -289,7 +319,7 @@ html {
 }
 /* Places */
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 
