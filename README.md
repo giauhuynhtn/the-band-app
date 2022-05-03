@@ -1,9 +1,12 @@
 🌐 Cloning Web Template - THE BAND 🥁
+
 ✍️ Description
+
 This web is cloned from https://www.w3schools.com/w3css/w3css_templates.asp
 Click https://www.w3schools.com/w3css/tryw3css_templates_band.htm 👈 to see the original template
 And Click https://app-the-band-giau-huynh.herokuapp.com/ 👈 to see the results that I have learned when did the web
 The purpose of doing this web is to practice HTML, CSS, JavaScript and Web Responsive
+
 💻 Technology
 HTML CSS JavaScript
 
